@@ -1,4 +1,4 @@
-FROM grafana/grafana:6.1.6
+FROM grafana/grafana:9.1.0-beta1-ubuntu
 
 COPY conf/grafana.ini /etc/grafana/grafana.ini
 
